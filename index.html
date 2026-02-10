@@ -1,2 +1,47 @@
-<script src="https://cdn.logwork.com/widget/text.js"></script>
-<a href="https://logwork.com/current-time-in-copenhagen-denmark-hovedstaden" class="clock-widget-text" data-timezone="Europe/Copenhagen" data-language="da" data-textcolor="#ffffff" data-background="#1a1a1a" data-digitscolor="#ffffff">Danmark</a>
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uret i København</title>
+    <style>
+        /* Sætter hele sidens baggrund til #1a1a1a */
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* fylder hele skærmen */
+            margin: 0;
+        }
+
+        /* Tilpasning af Logwork widget */
+        .clock-widget-text {
+            background-color: #1a1a1a !important;
+            color: #ffffff !important;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Logwork widget -->
+    <a href="https://logwork.com/current-time-in-copenhagen-denmark-hovedstaden" 
+       class="clock-widget-text" 
+       data-timezone="Europe/Copenhagen" 
+       data-language="da" 
+       data-textcolor="#ffffff" 
+       data-background="#1a1a1a" 
+       data-digitscolor="#ffffff">
+       Danmark
+    </a>
+
+    <!-- Logwork script -->
+    <script src="https://cdn.logwork.com/widget/text.js"></script>
+</body>
+</html>
+
