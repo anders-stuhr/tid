@@ -5,25 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uret i København</title>
     <style>
-        /* Sætter hele sidens baggrund til #1a1a1a */
+        /* Nulstil margin og padding på hele siden */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #1a1a1a; /* Baggrund for hele siden */
+        }
+
+        /* Centrer indholdet fuldt ud */
         body {
-            background-color: #1a1a1a;
-            color: #ffffff;
-            font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* fylder hele skærmen */
-            margin: 0;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
         }
 
-        /* Tilpasning af Logwork widget */
+        /* Tilpas Logwork widget */
         .clock-widget-text {
             background-color: #1a1a1a !important;
             color: #ffffff !important;
             padding: 10px 20px;
             border-radius: 8px;
             font-size: 1.5rem;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -44,4 +50,5 @@
     <script src="https://cdn.logwork.com/widget/text.js"></script>
 </body>
 </html>
+
 
